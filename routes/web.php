@@ -7,6 +7,10 @@ Route::get('/', function () {
 });
 
 
+
+
+
+
 Route::get('/hello', function () {
-    return 'Hello from Vercel';
+    return view('hello');
 });
